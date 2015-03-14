@@ -28,7 +28,7 @@ int main(int argc,char *argv[])
 	char ch, file_name[25];
 	FILE *fp;
 	struct dirent *pDirent;
-        DIR *pDir;
+        
 		
 	char buffer[MAX_BUFF];
 	struct sockaddr_in serv_addr,cli_addr,ipcserv_addr;
